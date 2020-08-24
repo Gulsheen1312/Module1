@@ -13,7 +13,7 @@ var timerId = setInterval(function(){
   var sec = Math.floor((countdown - (min * 60 * 1000)) / 1000);  //correct
 
   if (countdown <= 0) {
-    alert("time is up automatic form submit")
+    alert("Timeup automatic form submit")
     $(document).ready(function(){
   $('button').trigger('click');
 });
